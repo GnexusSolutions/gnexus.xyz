@@ -4,9 +4,9 @@ Public professional portfolio for **Cymatics Williams**.
 
 ## What this is
 
-A working, no-build static website using a GNX scroll-world interaction pattern: scroll-linked scenes, persistent progress, a changing operating-object visualization, evidence states, case studies, and a role-to-proof matrix.
+A working, no-build static website using a GNX scroll-world interaction pattern: scroll-linked scenes, persistent progress, a changing operating-object visualization, evidence states, career intersections, and a role-to-proof matrix.
 
-It is not an ACML/design guide, a museum-style concept page, or a generic portfolio template.
+It is not an ACML/design guide, museum-style concept page, or generic portfolio template.
 
 ## Run locally on Windows
 
@@ -22,21 +22,14 @@ The site opens at:
 http://127.0.0.1:3951/
 ```
 
-## Main routes
+## Main source surfaces
 
 - `/` — scroll-world portfolio
 - `/resume.html` — printable professional profile
-- `/case-studies/ohana-contract-readiness.html`
-- `/case-studies/commercial-preflight.html`
-- `/case-studies/living-procedural-memory.html`
-- `/case-studies/field-to-system.html`
-- `/case-studies/human-system-bridge.html`
-- `/linkedin/PROFILE_COPY.md`
-- `/docs/PORTFOLIO_PROOF_PLAN.md`
-
-## Deployment
-
-See `docs/DEPLOY_CYMATICS_SUBDOMAIN.md`.
+- `/linkedin/PROFILE_COPY.md` — complete LinkedIn copy
+- `/docs/PORTFOLIO_PROOF_PLAN.md` — job-to-evidence build plan
+- `/data/job-proof-matrix.json` — machine-readable capability and evidence matrix
+- `/docs/DEPLOY_CYMATICS_SUBDOMAIN.md` — bounded deployment instructions
 
 ## Truth boundary
 
