@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://cymatics.gnexus.xyz/</loc></url>
-  <url><loc>https://cymatics.gnexus.xyz/resume.html</loc></url>
-  <url><loc>https://cymatics.gnexus.xyz/case-studies/commercial-preflight.html</loc></url>
-  <url><loc>https://cymatics.gnexus.xyz/case-studies/living-procedural-memory.html</loc></url>
-  <url><loc>https://cymatics.gnexus.xyz/case-studies/ohana-contract-readiness.html</loc></url>
-  <url><loc>https://cymatics.gnexus.xyz/case-studies/field-to-system.html</loc></url>
-  <url><loc>https://cymatics.gnexus.xyz/case-studies/human-system-bridge.html</loc></url>
+<url><loc>https://cymatics.gnexus.xyz/</loc></url>
+<url><loc>https://cymatics.gnexus.xyz/work.html</loc></url>
+<url><loc>https://cymatics.gnexus.xyz/resume.html</loc></url>
+<url><loc>https://cymatics.gnexus.xyz/case-studies/commercial-preflight.html</loc></url>
+<url><loc>https://cymatics.gnexus.xyz/case-studies/living-procedural-memory.html</loc></url>
+<url><loc>https://cymatics.gnexus.xyz/case-studies/ohana-contract-readiness.html</loc></url>
+<url><loc>https://cymatics.gnexus.xyz/case-studies/field-to-system.html</loc></url>
+<url><loc>https://cymatics.gnexus.xyz/case-studies/human-system-bridge.html</loc></url>
 </urlset>
