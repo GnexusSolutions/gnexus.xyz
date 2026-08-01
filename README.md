@@ -2,24 +2,18 @@
 
 World-class professional portfolio for **Cymatics Williams**.
 
-## Product intent
+## Design premise
 
-This is a real professional website, not an ACML/design guide, museum-style concept, generic portfolio template, or equal-card SaaS dashboard.
+The GNX scroll-world framework is used as an interaction engine—not as fantasy branding, a museum guide, or a generic card dashboard. The site is an editorial operating narrative with persistent chapter orientation, a changing systems model, evidence-led case studies, and explicit proof boundaries.
 
-The interface uses the GNX scroll-world model underneath the experience:
+## Run locally on Windows
 
-- scroll-linked chapters;
-- persistent orientation and progress;
-- a changing operating-picture visualization;
-- evidence-backed case studies;
-- role-to-proof translation;
-- explicit truth and release boundaries.
-
-“World” is an operating-system analogy—not the visual theme or vocabulary of the site.
+Double-click `RUN_LOCAL.bat`, then open `http://127.0.0.1:3951/`.
 
 ## Main routes
 
 - `/` — flagship scroll-world portfolio
+- `/work.html` — evidence library
 - `/resume.html` — printable professional profile
 - `/case-studies/commercial-preflight.html`
 - `/case-studies/living-procedural-memory.html`
@@ -28,24 +22,12 @@ The interface uses the GNX scroll-world model underneath the experience:
 - `/case-studies/human-system-bridge.html`
 - `/linkedin/PROFILE_COPY.md`
 - `/data/job-proof-matrix.json`
-- `/data/portfolio-proof-ledger.json`
-- `/docs/PORTFOLIO_PROOF_PLAN.md`
-
-## Run locally on Windows
-
-Double-click `RUN_LOCAL.bat`.
-
-The site opens at `http://127.0.0.1:3951/`.
 
 ## Truth boundary
 
-- Public professional identity: Cymatics Williams
+- Public identity: Cymatics Williams
 - Contact: cymaticswilliams@pm.me
-- OhanaVista and Gnexus Consulting LLC remain separate roles
+- OhanaVista and Gnexus Consulting LLC remain separate concurrent roles
 - Contract and legal-document administration is not represented as legal practice
-- Local verification is not represented as public production
-- No college degree, license, clearance, enterprise SaaS tenure, renewal metrics, customer outcomes, or named-platform mastery is invented
-
-## Deployment
-
-See `docs/DEPLOY_CYMATICS_SUBDOMAIN.md`.
+- Local verification is not represented as public production or customer adoption
+- No degree, license, clearance, enterprise SaaS tenure, retention metric, customer outcome, or named-platform mastery is invented
