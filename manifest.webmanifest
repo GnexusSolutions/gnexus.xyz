@@ -1,0 +1,9 @@
+{
+  "name": "Cymatics Williams Portfolio",
+  "short_name": "Cymatics Williams",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1015",
+  "theme_color": "#0b1015",
+  "icons": []
+}

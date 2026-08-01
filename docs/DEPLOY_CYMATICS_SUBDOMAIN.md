@@ -1,36 +1,28 @@
 # Deploy `cymatics.gnexus.xyz`
 
-The repository is a no-build static site.
+The source is a dependency-free static site.
 
-## Local verification
+## Local Windows runtime
 
-Double-click `RUN_LOCAL.bat`, then open:
+Double-click `RUN_LOCAL.bat` or run:
 
-```text
-http://127.0.0.1:3951/
+```powershell
+powershell -ExecutionPolicy Bypass -File .\START_PORTFOLIO.ps1
 ```
+
+The site opens at `http://127.0.0.1:3951/`.
 
 ## GitHub Pages
 
-1. Review and merge the portfolio pull request.
-2. Enable GitHub Pages from the `main` branch root.
-3. In Pages settings, enter `cymatics.gnexus.xyz` as the custom domain.
-4. At the DNS provider for `gnexus.xyz`, create the exact CNAME record GitHub Pages instructs you to use.
-5. After DNS validation, enable HTTPS.
+1. Merge the portfolio branch to `main`.
+2. In repository settings, open **Pages**.
+3. Set the source to **Deploy from a branch**.
+4. Select `main` and `/ (root)`.
+5. Preserve the repository `CNAME` file containing `cymatics.gnexus.xyz`.
+6. At the DNS provider for `gnexus.xyz`, create a CNAME record:
+   - Name: `cymatics`
+   - Target: `gnexussolutions.github.io`
+7. Wait for DNS propagation and enable **Enforce HTTPS** in GitHub Pages.
+8. Verify the homepage, all case-study routes, `resume.html`, JSON data, canonical URL, and HTTPS certificate.
 
-## Existing GNX hosting
-
-If `gnexus.xyz` already uses another host or reverse proxy, point the `cymatics` subdomain to this repository's static output. The site has no server-side dependency.
-
-## Public verification gate
-
-Do not describe the site as live until the HTTPS route is opened and the following are verified:
-
-- homepage loads from `https://cymatics.gnexus.xyz`;
-- CSS, JavaScript, and SVG load successfully;
-- scroll-world scenes update on desktop;
-- mobile layout works at 390px width;
-- résumé, LinkedIn copy, proof plan, and job-proof matrix are reachable;
-- no private or legal-name-only material is exposed.
-
-Repository presence is source proof, not deployment proof.
+No GitHub Actions workflow is required or included.
