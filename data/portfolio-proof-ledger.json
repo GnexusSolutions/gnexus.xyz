@@ -1,0 +1,76 @@
+{
+  "updated": "2026-07-31",
+  "items": [
+    {
+      "object": "Commercial Preflight",
+      "state": "LOCALLY_VERIFIED",
+      "supports": [
+        "implementation",
+        "AI operations",
+        "product operations"
+      ],
+      "does_not_support": [
+        "public deployment",
+        "customer adoption",
+        "independent certification"
+      ]
+    },
+    {
+      "object": "Living Procedural Memory",
+      "state": "ARCHITECTURE_GOVERNED_PRACTICE",
+      "supports": [
+        "stateful workflow",
+        "recovery architecture",
+        "source custody"
+      ],
+      "does_not_support": [
+        "universal memory",
+        "autonomous authority",
+        "complete enterprise deployment"
+      ]
+    },
+    {
+      "object": "Contract Readiness",
+      "state": "DIRECT_BOUNDED",
+      "supports": [
+        "document operations",
+        "contract readiness",
+        "administrative coordination"
+      ],
+      "does_not_support": [
+        "legal advice",
+        "legal representation",
+        "law license"
+      ]
+    },
+    {
+      "object": "Field-to-System Translation",
+      "state": "DIRECT_GENERALIZED",
+      "supports": [
+        "field operations",
+        "service delivery",
+        "exception handling"
+      ],
+      "does_not_support": [
+        "named client results",
+        "unauthorized site artifacts",
+        "fabricated metrics"
+      ]
+    },
+    {
+      "object": "Human-System Bridge",
+      "state": "DIRECT_PRIVACY_SAFE",
+      "supports": [
+        "customer education",
+        "participant guidance",
+        "adoption",
+        "escalation"
+      ],
+      "does_not_support": [
+        "client identity",
+        "health information",
+        "claim of 32 completed housing placements"
+      ]
+    }
+  ]
+}
